@@ -41,8 +41,8 @@
 
 			lab_regulator: qcom,lab@de00 {
 				/delete-property/
-					qcom,qpnp-ibb-use-default-voltage;
-				qcom,qpnp-ibb-init-lcd-voltage = <5000000>;
+					qcom,qpnp-lab-use-default-voltage;
+				qcom,qpnp-lab-init-lcd-voltage = <5000000>;
 			};
 		};
 	};
